@@ -14,7 +14,7 @@ def help():
     print(words[i:i+10])
     input("Press Enter for more...")
 help()
-random.word = random.choice(words)
+random_word = random.choice(words)
 attempt = 0
 
 while True:
@@ -23,7 +23,7 @@ while True:
      help()
      continue
  if answer == random:
-   print(f"Correct the answer was {random}")
+   print(f"Correct the answer was {random_word}")
    break
  else:
   attempt +=1
