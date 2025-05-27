@@ -14,7 +14,7 @@ def help():
     print(words[i:i+10])
     input("Press Enter for more...")
 help()
-random = random.choice(words)
+random.word = random.choice(words)
 attempt = 0
 
 while True:
